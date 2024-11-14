@@ -29,4 +29,4 @@ linux服务器知识，shell脚步编写;
 
 ### 至今
 
-开源软件放在github上 <https://github.com/yimaoinfo>
+开源软件放在github上 <https://github.com/gxcla>
