@@ -92,7 +92,7 @@ layout: post
 ## 五、注意事项
 
 1、robots.txt 文件必须放在网站的根目录，不可以放在子目录。
- 以一毛博客网站为例：比如通过 https://YiMao.INFO/robots.txt 你就可以访问 YiMao.INFO的robots.txt文件了。
+ 以一毛博客网站为例：比如通过 https://GXC.LA/robots.txt 你就可以访问 GXC.LA的robots.txt文件了。
 2、robots.txt 文件名命名必须小写，记得在robot面加“s”。
 3、User-agent、Allow、Disallow的 “:” 后面有一个字符的空格。
 4、路径后面加斜杠“**/**” 和不加斜杠的是有区别的
