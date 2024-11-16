@@ -151,10 +151,10 @@ Canonical标签其他用法参考 <a href="https://ziyuan.baidu.com/wiki/112/" r
 
 ```
 提供一个txt文档，文档中数据为两列，中间用tab键隔开，第一列为PC版URL ,第二列为PC页面对应的移动版页面。
-以站点www.yimao.info为例：
-http://www.yimao.info/	http://m.yimao.info/
-http://www.yimao.info/findlawyers/	http://m.yimao.info/findlawyer/
-http://www.yimao.info/question/	http://m.yimao.info/question/
+以站点www.GXC.LA为例：
+http://www.GXC.LA/	http://m.GXC.LA/
+http://www.GXC.LA/findlawyers/	http://m.GXC.LA/findlawyer/
+http://www.GXC.LA/question/	http://m.GXC.LA/question/
 ```
 
 **pc url pattern与wap url pattern的对应**
@@ -165,10 +165,10 @@ http://www.yimao.info/question/	http://m.yimao.info/question/
  pc_url_pattern：表示PC页pattern，在PC页url的基础上，首先确定url中哪些路径或参数是可替换的。然后根据其类型，使用正则匹配符号(\d+)或者(\w+)表示该路径或参数。(\d+)表示“纯数字”字符串，(\w+)表示“数字”或“字母”以及“下划线”混合组成的字符串。
 wap_url_pattern：表示wap版式的手机页pattern，在手机页url的基础上，根据可替换参数在对应的PC页pattern中出现的顺序，依次用\1，\2，……表示该参数。
 
-以站点www.yimao.info为例：
-http://www.yimao.info/question/(\d+).aspx http://m.yimao.info/question/\1.aspx
-http://www.yimao.info/lawyer/(\w+)/ http://m.yimao.info/lawyer/\1/
-http://www.yimao.info/case/add.aspx?toguid=(\w+)-(\w+)-(\w+)-(\w+)-(\w+)/ http://m.yimao.info/findlawyer/add.aspx?guid=\1-\2-\3-\4-\5/
+以站点www.GXC.LA为例：
+http://www.GXC.LA/question/(\d+).aspx http://m.GXC.LA/question/\1.aspx
+http://www.GXC.LA/lawyer/(\w+)/ http://m.GXC.LA/lawyer/\1/
+http://www.GXC.LA/case/add.aspx?toguid=(\w+)-(\w+)-(\w+)-(\w+)-(\w+)/ http://m.GXC.LA/findlawyer/add.aspx?guid=\1-\2-\3-\4-\5/
 ```
 
 参考<a href="http://zhanzhang.so.com/sitetool/urlmap/submit" rel="nofollow" >官方文档</a>
